@@ -1,0 +1,32 @@
+# dependencies
+/node_modules/
+
+# envs / secrets
+.env
+.env.local
+.env.*.local
+
+# build output
+/dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# other
+coverage/
+.cache/
+.parcel-cache/
+*.pem
+*.key
